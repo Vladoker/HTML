@@ -1,0 +1,25 @@
+body{
+    background: rgba(56, 150, 118, 0.35);
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+p {
+    text-align: center;
+    color: #0d56c9;
+    font-size: 20px;
+    font-family: cursive;
+}
+.two {
+    text-align: justify;
+    color: #149b43;
+}
+
+.ascii {
+    text-align: justify;
+    color: #f5030c;
+    text-align: center;
+    
+}
