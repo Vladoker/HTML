@@ -1,0 +1,16 @@
+body
+{
+    background: url(img/kosmos.jpg);
+    background-size: 100%;
+}
+
+.block1
+{
+    color: #f45e00;
+    border: solid 2px red;
+}
+.block2
+{
+    color: #09f400;
+    border: solid 2px #00ff00;
+}
