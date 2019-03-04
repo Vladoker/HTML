@@ -1,0 +1,22 @@
+.header 
+{
+    text-align: center;
+    font-family: Arial; 
+}
+h2
+{
+    color: green;
+}
+p
+{
+    color: blue;
+}
+
+.lightBlue
+{
+    background: #00fff5;
+}
+.max
+{
+    font-size: 20px;
+}

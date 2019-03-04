@@ -1,0 +1,99 @@
+/*@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);*/
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Righteous&amp;subset=latin-ext);
+@import url('https://fonts.googleapis.com/css?family=Neucha&subset=cyrillic');
+
+
+body
+{
+    background: #403F3F;
+}
+header
+{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Pacifico',sans-serif;
+}
+
+.content {
+    color: aliceblue;
+}
+.Funghi  {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+
+.Rancho  {
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}
+.Mario  {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+}
+
+.textR {
+    font-family: 'Righteous';
+    font-size: 35px;
+    position: absolute;
+    top: 140px;
+    left: 89px;
+}
+
+.textF {
+    font-family: 'Righteous';
+    font-size: 35px;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+
+.textM {
+    font-family: 'Righteous';
+    font-size: 35px;
+    position: absolute;
+    top: 140px;
+    left: 110px;
+}
+
+.descriptionsF {
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    height: 350px;
+    background: #757577;
+    padding: 10px;
+    font-family: 'Neucha',cursive;
+    color: #ef8b04;
+}
+.descriptionsR {
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    height: 350px;
+    background: #746963;
+    padding: 10px;
+    font-family: 'Neucha',cursive;
+    color: #ccac81;
+}
+.descriptionsM {
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    height: 350px;
+    background: #70808F;
+    padding: 10px;
+    font-family: 'Neucha',cursive;
+    color: #ff7600;
+    
+}
+
+
+    
+
