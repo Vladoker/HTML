@@ -1,0 +1,21 @@
+.block1 
+{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000;
+    background: #0061e5;
+    margin-top: 200px;
+    margin-left: 150px;
+}    
+.block2 
+{
+    width: 250px;
+    height: 250px;
+    width: 300px;
+    height: 250px;
+    border: 1px dashed #234f23;
+    margin: 50px 100px;
+    padding: 20px;
+    font-size: 25px;
+    
+}

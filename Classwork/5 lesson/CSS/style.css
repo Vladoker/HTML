@@ -1,0 +1,14 @@
+
+.parentE {
+    width: 250px;
+    height: 250px;
+    background: rgba(37, 172, 135, 0.78);
+    padding: 100px;
+    
+}
+
+.children {
+    width: 100px;
+    height: 100px;
+    background: rgba(230, 43, 137, 0.67);
+}
