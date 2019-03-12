@@ -1,0 +1,36 @@
+:root {
+    --no-style:none;
+    --txt-color: #ccc;
+    --base-font: 16px "segoe ui",verdana, sans-serif;
+}
+body{
+    background: #999;
+      font: var(base-font); 
+}
+
+ul {
+    list-style: var(--no-style);
+}
+
+ul li {
+    display: inline-block;
+    
+     border-bottom: 8px solid 
+    var(--txt-color);
+    transition: 250ms ease-out;
+    
+}
+
+li a {
+    text-decoration: var(--no-style);
+    padding: 4px 10px;
+    background: #444;
+    --accent-color: #ccc;
+    color: var(--accent-color);
+    transition: 800ms ease-in;
+}
+a:hover {
+    background: #000;
+    --accent-color: #fff;
+    padding: 4px 10px 10px;
+}

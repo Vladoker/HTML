@@ -1,0 +1,27 @@
+.listOne li:first-child {
+color: orange;
+} 
+p:first-line {
+background: orange;
+}
+        
+h1:first-letter {
+font-size: 5em;
+}
+
+.listThree li:last-of-type {
+    color: orange;
+}
+.listThree li:last-of-type {
+    background: black;
+}
+.listThree li:First-of-type {
+    color: #7600ff;
+}
+
+ .listFor li:not(.not) {
+    color: orange;
+} 
+.listFive li:not(.not):not(:last-of-type) {
+    color: lightcoral;
+}

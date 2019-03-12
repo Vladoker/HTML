@@ -1,0 +1,14 @@
+
+ol :nth-child(2) { /* (2n)Каждый второй или (odd) нечетные  */
+    color: orange;
+}
+
+a > img {
+   /*  w50p+h:a */
+    width: 50%;
+    height: auto;
+}
+
+p:nth-of-type(2){ /* Окрашивает только второй параграф */
+    color: #d95d1a;
+}
