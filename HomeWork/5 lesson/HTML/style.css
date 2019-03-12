@@ -1,0 +1,31 @@
+
+body {
+    background-image: url(https://i.ibb.co/VLXmLty/Mojave-Night.jpg);
+    background-size: cover;
+}
+
+.mackbook {
+    width: 600px;
+    height: 550px;
+    background: #131218;
+    border: none;
+    
+}
+
+h2 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 48px;
+    color: aliceblue;
+}
+
+h3 {
+     text-align: center;
+    color: aliceblue;
+}
+
+
+
+.image {
+    background-image: url(https://i.ibb.co/s67zRQq/2019-03-12-10-22-23.jpg);
+}
