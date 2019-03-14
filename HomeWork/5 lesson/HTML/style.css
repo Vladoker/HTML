@@ -1,10 +1,13 @@
 
 body {
-    background-image: url(https://i.ibb.co/VLXmLty/Mojave-Night.jpg);
-    background-size: cover;
+    background: url(https://i.ibb.co/VLXmLty/Mojave-Night.jpg) center/cover no-repeat;
+    background-size: 150%;
+    height: 100vh;
+   
+   
 }
 
-.mackbook {
+./* mackbook {
     width: 600px;
     height: 550px;
     background: #131218;
@@ -23,7 +26,7 @@ h3 {
      text-align: center;
     color: aliceblue;
 }
-
+ */
 
 
 .image {

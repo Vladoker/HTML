@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+    <table> - [align|width|cellspacing|cellpadding|bgcolor] | background[image,color] |
+    border| bordercolor]
+    <tr> - [align|valign|bgcolor]  
+        -->
+        
+        <table><td>
+            <tr>
+                <th>1st cell (th) of row 1 (tr)</th>
+                <th>2ed cell (th) of row 1 (tr)</th>
+                <th>3rd cell (th) of row 1 (tr)</th>
+            </tr>
+            <tr>
+                <td>1st cell (td) of row 1 (tr)</td>
+                <td>2ed cell (td) of row 2 (tr)</td>
+                <td>3rd cell (td) of row 2 (tr)</td>
+            </tr>
+            <tr>
+                <td>1st cell (td) of row 1 (tr)</td>
+                <td>2ed cell (td) of row 2 (tr)</td>
+                <td>3rd cell (td) of row 2 (tr)</td>
+            </tr>
+        </td></table>
+        <hr>
+        
+        <!-- 
+        table[border cellspacing cellpadding]>tr>th*3^tr>td*3^tr>td*3 -->
+        <h2>Атрибуты к таблице</h2>
+        <table border cellspacing="5" cellpadding="20">
+            <tr>
+                <th>1st cell (td) of row 1 (tr)</th>
+                <th>2ed cell (td) of row 1 (tr)</th>
+                <th>3rd cell (td) of row 1 (tr)</th>
+            </tr>
+            <tr>
+                <td>1st cell (td) of row 2 (tr)</td>
+                <td>2ed cell (td) of row 2 (tr)</td>
+                <td>3rd cell (td) of row 2 (tr)</td>
+            </tr>
+            <tr>
+                 <td>1st cell (td) of row 3 (tr)</td>
+                <td>2ed cell (td) of row 3 (tr)</td>
+                <td>3rd cell (td) of row 3 (tr)</td>
+            </tr>
+        </table>
+        
+        
+        <!-- 
+        table>tr[bgcolor]>td*3^tr[bgcolor]>td*3 -->
+        <hr>
+        <h1>Цвета</h1>
+        <table>
+            <tr bgcolor="red">
+                <td>1st cell (td) of row 2 (tr)</td>
+                <td>2ed cell (td) of row 2 (tr)</td>
+                <td>3rd cell (td) of row 2 (tr)</td>
+            </tr>
+            <tr bgcolor="#9d53b9">
+                <td>1st cell (td) of row 3 (tr)</td>
+                <td>2ed cell (td) of row 3 (tr)</td>
+                <td>3rd cell (td) of row 3 (tr)</td>
+            </tr>
+        </table>
+        <hr>
+        
+        <!-- table>(tr>td*3)*2 -->
+        
+       <table>
+           <tr>
+               <td bgcolor="blue">1st cell (td) of row 1 (tr)</td>
+                <td bgcolor="#3a3ab2">2ed cell (td) of row 1 (tr)</td>
+                <td bgcolor="#5e5edb">3rd cell (td) of row 1 (tr)</td>
+           </tr>
+           <tr>
+              <td bgcolor="#00fdcd">1st cell (td) of row 2 (tr)</td>
+                <td bgcolor="#2cc7aa">2ed cell (td) of row 2 (tr)</td>
+                <td bgcolor="#71d3c0">3rd cell (td) of row 2 (tr)</td>
+           </tr>
+       </table>
+       
+      <!-- table[border cellpadding cellspacing]>tr>th[colspan align]^tr>td+td[rowspan]^tr>td -->
+       <br><br><br>
+       
+       
+       <table border="1" cellpadding="20" cellspacing="15">
+           <tr>
+               <th colspan="2" align="center">Header</th>
+           </tr>
+           <tr>
+               <td>Content1</td>
+               <td rowspan="2">Sidebar</td>
+           </tr>
+           <tr>
+               <td>Content2</td>
+           </tr>
+       </table> 
+       <br><br><br>
+       
+       
+       <table border="1" cellpadding="20" cellspacing="15">
+           <tr>
+               <th colspan="2" align="center">Header</th>
+           </tr>
+           <tr>
+               <td>Content 1</td>
+               <td rowspan="5">Sidebar</td>
+           </tr>
+           <tr>
+               <td>Content 2</td>
+           </tr>
+           <tr>
+               <td>Content 3</td>
+           </tr>
+           <tr>
+               <td>Content 4</td>
+           </tr>
+           <tr>
+               <td>Content 5</td>
+           </tr>
+       </table> 
+        
+</body>
+</html>
