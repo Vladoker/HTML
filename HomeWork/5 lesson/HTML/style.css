@@ -15,16 +15,17 @@ body {
            =)
         */
 }
+/* https://www.iphones.ru/wp-content/uploads/2018/07/825868_5f8f3758f5.jpg */
 
 .mackbook {
-   background-image: url(https://www.iphones.ru/wp-content/uploads/2018/07/825868_5f8f3758f5.jpg);
+   background-image: url(img/macOS-Mojave-Beta-3.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     border: 0px;
     position: absolute;
     top: 100px;
-    left: 100px;
+    left: 600px;
     height: 400px;
     width: 600px;
     color: #00a7ff;
@@ -36,7 +37,7 @@ a {
 }
 
 .listone ul {
-    padding-top: 300px;
+    padding-top: 350px;
     list-style-type:none;
     font-size: 25px; 
     font-family: 'Comfortaa', cursive;
@@ -56,5 +57,5 @@ a {
 
 
 .toptext, h2, h3 {
-    margin: 10px;
+    margin: 1px;
 }
