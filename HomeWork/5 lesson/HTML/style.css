@@ -1,34 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300&subset=cyrillic');
 
 body {
-    background: url(https://i.ibb.co/VLXmLty/Mojave-Night.jpg) center/cover no-repeat;
-    background-size: 150%;
-    height: 100vh;
-   
-   
-}
-
-./* mackbook {
-    width: 600px;
-    height: 550px;
-    background: #131218;
-    border: none;
+    background-image: url(https://i.ibb.co/VLXmLty/Mojave-Night.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
     
+    /*  background: url(background-photo.jpg) center center cover no-repeat fixed; } */
+    
+        /* Вот что я ожидал от вас когда спрашивал про background
+           =)
+        */
 }
 
-h2 {
+.mackbook {
+   background-image: url(https://www.iphones.ru/wp-content/uploads/2018/07/825868_5f8f3758f5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 0px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    height: 400px;
+    width: 600px;
+    color: #00a7ff;
     text-align: center;
-    padding-top: 60px;
-    font-size: 48px;
-    color: aliceblue;
+    font-family: 'Sniglet', cursive;
+}
+a {
+    text-decoration: none;
 }
 
-h3 {
-     text-align: center;
-    color: aliceblue;
+.listone ul {
+    padding-top: 300px;
+    list-style-type:none;
+    font-size: 25px; 
+    font-family: 'Comfortaa', cursive;
 }
- */
+
+.display {
+    color: #01fdfd;
+}
+
+.keybord {
+    color: aquamarine;
+}
+
+.speed {
+    color: #06be80;
+}
 
 
-.image {
-    background-image: url(https://i.ibb.co/s67zRQq/2019-03-12-10-22-23.jpg);
+.toptext, h2, h3 {
+    margin: 10px;
 }

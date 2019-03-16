@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <table border cellpadding="15" cellspacing="0">
+   <table cellpadding="15" cellspacing="0">
        <tr>
            <td>Ячейка 1 строка 1</td>
            <td>Ячейка 2 строка 1</td>
@@ -26,27 +26,67 @@
    
    <br><br><br>
    
-   <table border cellpadding="20" cellspacing="0">
-       <tr><td colspan="3" align="center" colspan="3">1</td>
+   <table cellpadding="20" cellspacing="0">
+       <tr><td colspan="3">1</td>
        </tr>
-       <tr align="center">
+       <tr>
        <td width="80" height="120">2</td>
        <td width="200">3</td>
        <td width="110">4</td>
        </tr>
-       <tr align="center">
+       <tr>
            <td colspan="2" rowspan="2">5</td>
            <td>6</td>
        </tr>
        
-           <td align="center">7</td>
+           <td>7</td>
    </table>
    
    <br><br><br>
    
-   <table>
-       
+   <table cellpadding="20" cellspacing="0">
+       <tr><td colspan="5">1</td></tr>
+    <tr>
+       <td rowspan="2" width="80">2</td>
+       <td>3</td>
+       <td>4</td>
+       <td>5</td>
+       <td>6</td>
+    </tr>
+       <tr>
+           <td>7</td>
+           <td>8</td>
+           <td>9</td>
+           <td>10</td>
+       </tr>
+       <tr>
+           <td colspan="5">11</td>
+       </tr>
    </table>
+      <br><br><br>
+      <table cellpadding="20" cellspacing="0">
+          <tr><td colspan="5">1</td></tr>
+          <tr>
+              <td>2</td>
+              <td>3</td>
+              <td colspan="2" rowspan="2" >4</td>
+              <td>5</td>
+          </tr>
+          <tr>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+          </tr>
+          <tr>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+          </tr>
+      </table>
+       
+   
     
 </body>
 </html>
