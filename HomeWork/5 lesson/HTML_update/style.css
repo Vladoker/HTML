@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300&subset=cyrillic');
+:root {
+    --img-path1: url("https://i.ibb.co/VLXmLty/Mojave-Night.jpg");
+    --img-path2: url("img/macOS-Mojave-Beta-3.png");
+    --img-position: center no-repeat;
+    --fixed: center center/cover no-repeat fixed;
+    --parallax: var(--fixed);
+    --absl: absolute;
+    --relt: relative;
+    --style: 1px solid;
+    --no: none;
+    /* ---------------------------------
+                    Typo 
+    ----------------------------------*/
+    --cap-font: 'Sniglet', cursive;
+    --base-font: 'Comfortaa', cursive;
+    /*----------------------------------
+                    Color
+    ----------------------------------*/
+    --invert: #464646;
+    --success: #06be80;
+    --aqua: #01fdfd;
+    --aquamarine: #7FFFD4;
+    --info: #00a7ff;
+}
+body {
+    background: var(--img-path1) var(--parallax);
+    /*
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+*/
+    background-color: var(--invert);
+}
+
+/*  background: url(background-photo.jpg) center center cover no-repeat fixed; }
+ Вот что я ожидал от вас когда спрашивал про background
+           =)
+        */
+
+
+/* https://www.iphones.ru/wp-content/uploads/2018/07/825868_5f8f3758f5.jpg */
+
+.macbook {
+    background: var(--img-path2) var(--img-position);
+    /*    display: block;*/
+    border: 0px;
+    margin: 100px auto 0;
+    height: 400px;
+    width: 600px;
+    color: var(--info);
+    /* color - info */
+    text-align: center;
+    font-family: var(--cap-font);
+    /*    outline: var(--style) red;*/
+}
+.macbook >:first-child {
+    position: var(--relt);
+    top: -35px !important;
+}
+a {
+    text-decoration: var(--no);
+}
+a:hover {
+    text-decoration: underline;
+}
+.listone ul {
+    font-family: var(--base-font);
+    font-size: 25px;
+    list-style-type: var(--no);
+    text-align: center;
+    padding-top: 355px;
+    padding-inline-start: 0px;
+    /* moves to the left */
+}
+.display a {
+    color: var(--aqua);
+}
+.keybord a {
+    color: var(--aquamarine);
+}
+.speed a {
+    color: var(--success);
+    /* color - success */
+}
+
+/*
+.toptext > h2 {
+    margin: 3px;
+    top: -20px;
+}*/

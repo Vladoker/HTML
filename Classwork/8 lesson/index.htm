@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- table[cellspacing]>tr>td[valign]>table[align border cellspacing cellpadding background]>caption>strong^tr>th[colspan align]^tr>td+td[rowspan]^tr>td  -->
+
+<table cellspacing="10">
+    <tr>
+        <td valign="top">
+            <table align="left" border="1" cellspacing="10" cellpadding="20" background="img/imeges.jpg">
+                <caption><strong>Table mark-up with 1 Rows</strong></caption>
+                <tr>
+                    <th colspan="2" align="center">Header</th>
+                </tr>
+                <tr>
+                    <td>Content 1</td>
+                    <td rowspan="2">Sidebar</td>
+                </tr>
+                <tr>
+                    <td>Content 2</td>
+                </tr>
+                
+            </table>
+        </td>
+        <!-- td[align]>table[align border cellpadding cellspacing bgcolor]>caption>strong^tr>th[colspan]^tr>td[rowspan]+td^tr>td^(tr>td)*2 -->
+        <td valign="top">
+            <table align="left" border="1" cellpadding="20" cellspacing="10" background="#13db87">
+                <caption><strong>Table Mark up with 2 Rows &amp; Left Sidebar</strong></caption>
+                <tr>
+                    <th colspan="2">Header</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Sidebar</td>
+                    <td>Content 1</td>
+                </tr>
+                <tr>
+                    <td>Content 2</td>
+                </tr>
+                
+                <tr>
+                    <td>Content 3</td>
+                </tr>
+            </table>
+        </td>
+         
+         <!-- 
+         td[align]>table[valign border cellpadding cellspacing background]>caption>strong^tr>td[colspan align]^tr>td+td[rowspan]^(tr>td)*3 -->
+         
+         <td valign="top">
+             <table align="left" border="1" cellpadding="20" cellspacing="10" background="">
+                 <caption><strong>Table Mark up with 3 Rows</strong></caption>
+                 <tr>
+                     <td colspan="2" align="center">Header</td>
+                 </tr>
+                 <tr>
+                     <td>Content 1</td>
+                     <td rowspan="4">Header</td>
+                 </tr>
+                 <tr>
+                     <td>Content 2</td>
+                 </tr>
+                 <tr>
+                     <td>Content 3</td>
+                 </tr>
+                 <tr>
+                     <td>Content 4</td>
+                 </tr>
+             </table>
+         </td>
+         
+         <td valign="top">
+             <table align="center" border="1" cellpadding="20" cellspacing="10" background="" width="280">
+                 <caption><strong>Table Mark up with 4 Rows</strong></caption>
+                 <tr>
+                     <th colspan="2" align="center" height="40">Header</th>
+                 </tr>
+                 <tr>
+                     <td rowspan="6%" align="center" width="25%">Sidebar</td>
+                     <td align="center">content 1</td>
+                 </tr>
+                 
+                 <tr>
+                     <td align="center">content 2</td>
+                 </tr>
+                 <tr>
+                     <td align="center">content 3</td>
+                 </tr>
+                 <tr>
+                     <td align="center">content 4</td>
+                 </tr>
+                 <tr>
+                     <td align="center">content 5</td>
+                 </tr>
+             </table>
+         </td>
+         
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 8.2</title>
+</head>
+<body>
+   
+   <!-- 
+    table[cellpadding cellspacing bgcolor]>caption>strong^colgroup>col[span width]*3^thead[bgcolor]>tr[style]>th[colspan]>ul[align]>(li>a)*3 -->
+    
+    
+    
+     <table cellpadding="" cellspacing="" bgcolor="">
+         <caption><strong>a Web Page Mark-up with&lt;colorgroup&gt;</strong></caption>
+         <colgroup>
+             <col span="1" width="150">
+             <col span="1" width="650">
+             <col span="1" width="150">
+         </colgroup>
+         <thead bgcolor="#2d79a2">
+             <tr style="color: #fff" height="150">
+                 <th colspan="3">Header
+                     <ul align="left" style="list-style: none">
+                         <li><a href="#">link 1</a></li>
+                         <li><a href="#">link 2</a></li>
+                         <li><a href="#">link 3</a></li>
+                     </ul>
+                 </th>
+             </tr>
+         </thead>
+        
+         
+         <tbody border="none">
+             <tr>
+                 <td colspan="3" style="padding: 0 !important;"><img src="http://zoohall.com.ua/uploads/posts/2010-09/1284493100_green-dripped-1.jpg" alt="title" width="955" height="750"></td>
+             </tr>
+             <tr align="center" height="150">
+                 <td bgcolor="rgba(47, 93, 219, 0.78)" cellspacing="10">1st cell(td) of row (tr)</td>
+                 <td height="" align="justify" valign="top" bgcolor="rgba(47, 93, 219, 0.78)" rowspan="3">
+                     <h2 align="center">2nd cell(td) of row 1(tr)</h2>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                     <p><a href="#">consectetur adipisicing.</a></p>
+                     <p>Lorem ipsum dolor sit.</p>
+                     <p><a href="#">Lorem </a>ipsum dolor.</p>
+                 </td>
+                     <td bgcolor="rgba(47, 93, 219, 0.78)">3rd cell of row 1 (tr)</td>
+                 </tr>
+                 <tr align="center" height="150">
+                     <td bgcolor="rgba(47, 93, 219, 0.78)">1st cell of row 2 (tr)</td>
+                     <td bgcolor="rgba(47, 93, 219, 0.78)" rowspan="2">3rd cell of row 2 (tr)</td>
+                 </tr>
+                 <tr align="center" height="150">
+                     <td bgcolor="rgba(47, 93, 219, 0.78)">1st cell of row 3 (tr)</td>
+                 </tr>
+         </tbody>
+         <!-- tfoot[bgcolor style]>td[align colspan height valign]>p[align]>a{link $}*3 -->
+         
+         <tfoot bgcolor="#7b2d2d" style="color: #fff;">
+             <td align="center" colspan="3" height="100" valign="bottom">
+                 <p align="#f50000">
+                     <a href="#">link 1</a>
+                     <a href="#">link 2</a>
+                     <a href="#">link 3</a>
+                 </p>
+             </td>
+         </tfoot>
+         
+     </table>
+   
+</body>
+</html>
