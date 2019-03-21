@@ -1,0 +1,70 @@
+:root {
+    --primary: #7e2c2c;
+    --success: #206e3c;
+    --info: lightblue; 
+    --warning: #d38e3b;
+    --danger: #7c2020;
+}
+
+.primary {
+    background: var(--primary);
+}
+.success {
+    background: var(--success);
+}
+.info {
+    background: var(--info);
+}
+.warning {
+    background: var(--warning);
+}
+.danger {
+    background: var(--danger);
+}
+body {
+    color:aliceblue;
+    font-family: "segoeui", hevletica, cursive;
+}
+div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    vertical-align: middle;
+    padding-top: 65px;
+}
+p.rel {
+    padding-top: 85px;
+}
+.left-abs {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.center-abs {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.right-abs {
+    position: absolute;
+    top: 100px;
+    right: 650px;
+}
+.left-rel {
+    position: relative;
+    top: -10px;
+    left: 700px;
+}
+.center-rel {
+    position: relative;
+    top: -160px;
+    left: 700px;
+}
+.right-rel {
+    position: relative;
+    top: -330px;
+    right: -650px;
+}

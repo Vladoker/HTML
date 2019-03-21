@@ -1,0 +1,34 @@
+
+.red, .blue,.green,.orange {
+   width: 200px;
+   height: 200px;
+}
+.red {
+    --style:1px solid;
+    border: var(--style) red;
+    background: darkred;
+}
+
+
+.blue {
+    border: var(--style) blue;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    background: #082df5;
+}
+
+.green {
+    border: ver(--style)green;
+    background: green;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+.orange {
+    border: var(--style)orange;
+    background: #98670c;
+    position: absolute;
+    top: 8px;
+    left: 400px
+}
