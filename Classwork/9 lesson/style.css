@@ -1,0 +1,107 @@
+
+.container {
+    padding: 20px;
+    background: #e7e6d4;
+    border: 3px dashed  #645a4e;
+}
+
+.floatbox {
+    float: left;
+    /* w300+h150+mr20+p0-20+bg#fff+bd3-dashed-#666 */
+    width: 300px;
+    height: 150px;
+    margin-right: 20px;
+    padding: 0 20px;
+    background: #fff;
+    border: 3px dashed  #666;
+}
+
+/* the use of .clearfix */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ---------------------- */
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 20px;
+    background: #e7e6d4;
+    overflow: auto;
+    border: 3px dashed  #645a4e;
+}
+li {
+    
+    float: left;
+     width: calc(100% / 3 - 20px);
+     height: 50px;
+     margin-right: 20px;
+     background: #fff;
+     border: 3px dashed  #666;
+}
+li:last-child {
+    margin-right: 0;
+}
+
+div.max-width {
+    width: 400px;
+    max-width: 50%;
+}
+
+/* -------------------------------- */
+.wrapper {
+    position: relative;
+    border: 3px solid  #fad;
+}
+.box {
+    background: #fa6;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+}
+.box:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.button {
+    height: 50px;
+    line-height: 45px;
+}
+
+.outer {
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.inner {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 35%;
+    margin-left: 100px;
+}
+.primary {
+    background: blue;
+    
+}
+.success {
+    background: #20795b;
+}
+.info {
+    background: #069;
+}
+.warning {
+    background: #fa6;
+}
+.danger {
+    background: #f42;
+}
+

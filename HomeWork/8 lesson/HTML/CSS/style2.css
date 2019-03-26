@@ -1,0 +1,21 @@
+
+.Red, .Violet,.Green{
+    width: 44px;
+    height: 42px;
+    position: absolute;
+}
+.Red {
+    border: 1px solid red;
+    top: 110px;
+    left: 110px;
+}
+.Violet {
+    border: 1px solid #7900c4; 
+    top: 110px;
+    left: 197px;
+}
+.Green {
+    border: 1px solid green;
+    top: 110px;
+    left: 280px;
+}
