@@ -5,17 +5,17 @@
     position: absolute;
 }
 .Red {
-    border: 1px solid red;
     top: 88px;
     left: 87px;
+    background: #FE8989;
 }
-.Violet {
-    border: 1px solid #7900c4; 
+.Violet { 
     top: 118px;
     left: 116px;
+    background: #827EE8;
 }
 .Green {
-    border: 1px solid green;
     top: 149px;
     left: 145px;
+    background: #00F193;
 }
