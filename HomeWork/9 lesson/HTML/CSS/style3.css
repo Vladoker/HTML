@@ -1,0 +1,55 @@
+*{
+    margin: auto;
+}
+.Hea {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background: #C4CC14;
+}
+
+.eye1 {
+    position: relative;
+    top: 60px;
+    right: 80px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+}
+.eye2 {
+    position: relative;
+    left: 160px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+}
+
+.nose {
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+}
+
+.mouth {
+    border-radius: 50%;
+    position: relative;
+    top: 125px;
+    width: 145px;
+    height: 99px;
+    background: #fff;
+    z-index: 0;
+}
+ .mouth2 {
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    width: 245px;
+    height: 99px;
+    background: #C4CC14;
+    z-index: 1;
+} 

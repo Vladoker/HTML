@@ -1,0 +1,16 @@
+.Cub {
+    border: 1px solid #B43173;
+    border-radius: 20px;
+    padding: 20px;
+    color: #B43173;
+}
+.Panel {
+    height: 50px;
+    width: 100%;
+    background: #B43173;
+    position: fixed;
+    top: 93%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 19px;
+}

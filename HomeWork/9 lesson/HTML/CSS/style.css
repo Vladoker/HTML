@@ -1,0 +1,34 @@
+*{
+    margin: auto;
+}
+.Cub {
+    width: 162px;
+    height: 346px;
+    border: 1px solid black;
+}
+
+.Circle1 {
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+   border: 1px solid black;
+    border-radius: 50%;
+    background: red;
+}
+
+.Circle2 {
+    margin-top: 85px;
+    width: 80px;
+    height: 80px;
+   border: 1px solid black;
+    border-radius: 50%;
+    background: yellow;
+}
+.Circle3 {
+    margin-top: 85px;
+    width: 80px;
+    height: 80px;
+   border: 1px solid black;
+    border-radius: 50%;
+    background: green;
+}
