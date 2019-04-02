@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Выпадающая меню</h3>
+    <input list="namelist">
+    <datalist id="namelist">
+        <option value="1">tex1</option>
+        <option value="2">text2</option>
+        <option value="3">text3</option>
+        <option value="4">text4</option>
+        <option value="5">text5</option>
+    </datalist>
+
+    <hr><br>
+
+    <select name="" id="">
+        <option value="пустой">------</option>
+        <option value="первый">123</option>
+        <option value="Второй">456</option>
+        <option value="Третий">789</option>
+    </select>
+
+    <hr><br>
+
+    <h3>Кнопки</h3>
+    <form action="">
+        <p><button>Кнопка</button></p>
+        <button><img src="http://pngimg.com/uploads/poop/poop_PNG18.png" alt="" style="vertical-align: middle; width: 15px;"> Кнопка с картинкой</button>
+    </form>
+    <hr><br>
+
+    <form action=""><textarea name="" id="" cols="30" rows="10" style="height: 30px;" maxlength="20"></textarea></form>
+
+    <hr><br>
+    <h3>Значения по умолчанию</h3>
+    <input type="text" value="value" onfocus="this.value = '';" onblur="if(this.value == '')this.value = 'значение по умолчанию';">
+
+
+</body></html>

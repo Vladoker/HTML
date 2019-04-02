@@ -1,0 +1,17 @@
+form > input[placeholder]
+{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none; /* черное подчёркивания */ 
+}
+
+form > input[placeholder]:focus
+{
+    border: 1px solid red; /* черное подчёркивания */
+}
+
+input 
+{
+    margin-bottom: 5px;
+}
