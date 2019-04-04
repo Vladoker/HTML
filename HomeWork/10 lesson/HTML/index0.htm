@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        input,textarea,button 
+        {
+            margin-top: 20px;
+        }
+        textarea {
+            height: 40px;
+        }
+        .check > label 
+        {
+            border: 1px solid red;
+        }
+        .radio {
+            border: 1px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+
+        <form action="">
+            <input type="text" placeholder="Плейсхолдер"><br>
+            <input type="text" value="Value">
+            <br>
+            <input type="" disabled placeholder="disabled">
+            <br>
+            <input type="password" placeholder="******">
+            <br>
+            <textarea placeholder="Введите текст" name="textarea" id="" cols="30" rows="10"></textarea>
+            <br>
+            <input type="button" value="Кнопка через тег input">
+            <br>
+            <button>Кнопка через тег button</button>
+            </form>
+            
+            <hr><br>
+        <form action="#">
+            <label>
+                <input type="text" placeholder="Плейсхолдер">
+             Это метка для инпута - нажмите на меня - и интуп получит фокус</label>
+             <br>
+             <button>Отправить на сервер</button>
+        </form>
+        
+        <hr><br>
+        
+        
+           
+   
+   
+   
+       <div class="check">
+          <form action="file.php">
+           <input type="checkbox" id="check1"><label for="check1">Это метка для чекбокса нажмите на меня - чекбокс сменит галочку</label><br>
+           <input type="checkbox" id="check2" checked><label for="check2">Я отмечен по умолчанию</label>
+           <br>
+           <input type="checkbox" id="check3" checked disabled><label for="check3">я disabled!</label>
+           </form>
+       </div>
+       
+       <br>
+       
+       <div class="radio">
+        
+         <form action="handler.php">
+         
+    <input name="dzen" type="radio" value="nedzen"> Не дзен
+    <input name="dzen" type="radio" value="dzen"> Дзен
+    <input name="dzen" type="radio" value="pdzen" checked> Полный дзен
+    <input type="submit" value="Выбрать">
+  </form> 
+       </div>
+       
+   
+   
+   
+        
+        
+
+   
+   
+  
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+.Cub {
+    width: 476px;
+    height: 384px;
+    border: 1px solid green;
+    margin: auto;
+}
+.CubMini {
+    width: 94px;
+    height: 96px;
+    border: 1px solid red;
+    position: relative;
+    top: 96px;
+    left: 94px;
+}

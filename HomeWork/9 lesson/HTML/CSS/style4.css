@@ -10,7 +10,10 @@
     background: #B43173;
     position: fixed;
     top: 93%;
-    text-align: center;
+    margin-left: -8px;
     color: aliceblue;
-    font-size: 19px;
+    text-align: center;
+    font-family: sans-serif;
 }
+
+
