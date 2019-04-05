@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>textArea</title>
+    <style>
+        form
+        {
+            padding-bottom: 20px;
+        }
+        .fom1 > textarea
+        {
+            resize: vertical;
+        }
+        .fom2 > textarea
+        {
+            resize: none;
+        }
+        .fom3 > textarea
+        {
+            resize: horizontal;
+        }
+        .fom4 > textarea
+        {
+            resize: both;
+        }
+        
+    </style>
+</head>
+<body>
+    <form class="fom1" action="">
+        <textarea maxlength="150" name="form1" id="" cols="30" rows="8">Ограничена ширина и высота</textarea>
+    </form>
+    
+    <form class="fom2" action="">
+        <textarea nonresize name="fomr2" id="" cols="30" rows="8"></textarea>
+    </form>
+        
+    <form class="fom3" action="">
+        <textarea nonresize name="fomr2" id="" cols="30" rows="8"></textarea>
+    </form>
+    
+    <form class="fom4" action="">
+        <textarea nonresize name="fomr2" id="" cols="30" rows="8"></textarea>
+    </form>   
+   
+</body>
+</html>
