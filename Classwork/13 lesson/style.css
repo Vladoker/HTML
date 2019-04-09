@@ -1,0 +1,197 @@
+:root { 
+  --inner: 20px;
+  --outer: 15px;
+  --gap: 10px; /* same as gutter */
+  
+  /* flex-flow in row
+  --------------------*/
+  --flex-row: row;
+  --row-wrap: row wrap;
+  --row-nowrap: row nowrap;
+  --row-wrap-rev: row wrap-reverse;
+  --row-rev-wrap: row-reverse wrap;
+  --row-rev-nowrap: row-reverse nowrap;
+  --row-rev-wrap-rev: row-reverse wrap-reverse;
+  
+  /* flex-flow in col
+  --------------------*/
+  --flex-col: column;
+  --col-wrap: column wrap;
+  --col-nowrap: column nowrap;
+  --col-wrap-rev: column wrap-reverse;
+  --col-rev-wrap: column-reverse wrap;
+  --col-rev-nowrap: column-reverse nowrap;
+  --col-rev-wrap-rev: column-reverse wrap-reverse;
+/* 
+  justify-content - X 
+  align-content - Y
+*/
+  --start: flex-start;
+  --end: flex-end;
+  
+/* typo 
+----------------------*/
+  --font: 1.2rem/1.7rem;
+  --sans: "segoe ui", verdana, sans-serif;
+  --md: var(--font) var(--sans);
+  
+/* colors 
+----------------------*/
+  --primary:    #007BFF;
+  --success:    #00bb00;
+  --info:       #17A2B8;
+  --warning:    #ffaa00;
+  --danger:     #ff0000;
+}
+
+body {
+  background: #000e;
+  font: 1.2rem/1.7rem var(--sans);
+}
+p {
+  color: #ccc;
+  padding: 5px;
+}
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--info);
+}
+aside {
+  min-width: 40px;
+}
+/* flexbox 
+-------------------------*/
+.row {
+  display: flex;
+  flex-direction: var(--flex-row);
+}
+.nowrap {
+  display: flex;
+  flex-flow: var(--row-nowrap);
+}
+.wrap {
+  display: flex;
+  flex-flow: var(--col-wrap);
+}
+[class*="col-"] {
+  border: 1px solid #ccc;
+  margin: var(--gap);
+  padding: var(--inner);
+  height: auto;
+  background: #333;
+  flex: 1 0 auto;
+}
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.col-3 {
+  flex: 3;
+}
+.col-4 {
+  flex: 4;
+}
+.col-5 {
+  flex: 5;
+}
+.col-6 {
+  flex: 6;
+}
+.col-7 {
+  flex: 7;
+}
+.col-8 {
+  flex: 8;
+}
+.col-9 {
+  flex: 9;
+}
+.col-10 {
+  flex: 10;
+}
+.col-11 {
+  flex: 11;
+}
+.col-12 {
+  flex: 12;
+}
+.rt-gap {
+  margin-right: var(--gap);
+}
+.lt-gap {
+  margin-left: var(--gap);
+}
+.mb-1 {
+  margin-bottom: calc(1 / var(--gap));
+}
+.mt-1 {
+  margin-top: calc(1 / var(--gap));
+}
+.mt-3 {
+  margin-top: calc(3 * var(--gap));
+}
+img {
+  --style: 2px solid;
+  border: var(--style) var(--primary);
+  border-radius: 7px;
+  padding: 3px;
+}
+img:hover {
+  border: var(--style) var(--info);
+}
+.face {
+  width: 80px;
+  height: 60px;
+  margin-left: 10px;
+}
+.beauty {
+  margin: 10px 10px 0 0;
+  width: 100px;
+  height: 70px;
+}
+.girl {
+  float: left;
+  margin: 10px 10px 0 0;
+  width: 100px;
+  height: 150px;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.txt-justify {
+  text-align: justify;
+}
+/* media queries 
+---------------------------*/
+@media screen and (max-width: 800px){
+  .row {
+    display: flex;
+    flex-flow: var(--col-wrap);
+  }
+  .media-wrap {
+    flex-direction: var(--flex-col);
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+/* 
+// https://images.unsplash.com/photo-1496671431883-c102df9ae8f9?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=9fe8bd205b369bfbdf459f66420b60c0
+
+// https://images.unsplash.com/photo-1509380836717-c4320ccf1a6f?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=15cffe5bf51b7de5547abf2499e1de94
+*/
