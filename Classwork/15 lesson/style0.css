@@ -1,0 +1,21 @@
+p
+{
+    color: cadetblue;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+   p
+    {
+        color: red;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   p
+    {
+        color:green;
+        font-size: 40px;
+    }
+}
