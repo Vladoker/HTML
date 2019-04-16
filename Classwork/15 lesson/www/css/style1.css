@@ -1,0 +1,27 @@
+body{
+    background: #BBBBBB;
+    line-height: 1;
+    color: black;
+    
+}
+#mainBg {
+    background-image: url(../imgs/mainBg.jpg) repeat-y;
+    width: 1078px;
+    height: 1990px;
+}
+
+#leftBg {
+    width: 263px;
+    height: 1989px;
+    float: left;
+    position: relative;
+}
+  
+}
+#logo {
+    background-image: url("../imgs/logo.png") no-repeat;
+    width: 195px;
+    height: 132px;
+    margin: 55px 0 53px 36px;
+}
+
