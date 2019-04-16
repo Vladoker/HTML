@@ -1,0 +1,35 @@
+* {
+    margin: 0 auto;
+}
+.cub0 {
+    width: 80%;
+    height: 300px;
+    border: 1px solid black;
+}
+.cub1,
+.cub2 {
+    height: 300px;
+    width: 49%;
+    background: green;
+}
+.cub1 {
+    float: left;
+}
+.cub2 {
+    float: right;
+}
+@media screen and (max-width: 600px) {
+    .cub1,
+    .cub2 {
+        float: none;
+        width: auto;
+    }
+    .cub0 {
+        margin: 0 auto;
+        height: auto;
+        width: 80%;
+    }
+    .cub1 {
+        margin-bottom: 2%;
+    }
+}
