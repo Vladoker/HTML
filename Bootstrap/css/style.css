@@ -80,9 +80,7 @@ button:focus{outline:0}
 
 
 
-.offers {
-    height: 565px;
-}
+
 
 .grayMinText {
     width: 741px;
@@ -112,4 +110,75 @@ button:focus{outline:0}
 
 .size_15 {
     font-size: 15px;
+}
+
+.grayMinText_size_14 {
+    font-size: 14px;
+    color: #898989;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+}
+
+.grayMinText_size_15 {
+font-size: 15px;
+color: #898989;
+font-family: "Lato";
+font-weight: 400;
+width: 286px
+}
+
+.feature__image {
+    height: 100%;
+    margin-right: 20px;
+}
+
+.feature {
+    margin-top: 60px;
+}
+
+.Art__itemL {
+    background-color: #9e9e9e;
+    height: 775px;
+}
+
+.Art__itemR {
+    background-color: #13a0b2;
+    height: 775px;
+}
+
+
+.art-bloks {
+    display: flex;
+    height: 770px;
+    background: linear-gradient(to right, #9e9e9e 50%, #13a0b2 50%);
+
+}
+
+.art {
+    padding: 110px 0;
+    border-top: 1px dotted #eee;
+}
+
+.card-axis {
+    display: flex;
+    box-shadow: 8px 8px 8px 8px rgb(0.1, 0.1, 0.1, 0.1);
+    padding: 20px;
+    margin: auto;
+    max-height: 550px;
+    max-width: 930px;
+    
+    align-items: center;
+    vertical-align: middle;
+    box-align: center;
+    text-align: left;
+    background-color: #fdfdfd;
+    color: #222;
+}
+
+.card-bg {
+    width: 86%;
+    background: linear-gradient(to right, #13a0b2 18%, #fff 18% 100%)
+}
+.Text {
+    margin-top: auto;
 }
