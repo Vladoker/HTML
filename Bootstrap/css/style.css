@@ -11,6 +11,12 @@ ul li {
     padding: 0;
     margin: 0;
 }
+.nav-link {
+    color: aliceblue;
+}
+.nav-link:hover {
+    color: #13a0b2;
+}
 h3 {
     font-size: 24px;
     color: #323232;
@@ -33,12 +39,10 @@ header {
     height: 72px;
 }
 
-.menu__item {
-    margin: 0 35px;
-}
+
 
 .menu,.logo {
-margin-top: 25px;
+margin-top: 20px;
 }
 
 .menu__item a {
@@ -136,49 +140,53 @@ width: 286px
     margin-top: 60px;
 }
 
-.Art__itemL {
-    background-color: #9e9e9e;
-    height: 775px;
-}
 
-.Art__itemR {
-    background-color: #13a0b2;
-    height: 775px;
-}
 
 
 .art-bloks {
+    margin-top: 115px;
     display: flex;
-    height: 770px;
+    height: 775px;
     background: linear-gradient(to right, #9e9e9e 50%, #13a0b2 50%);
 
 }
 
-.art {
-    padding: 110px 0;
-    border-top: 1px dotted #eee;
+.center__item {
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 125px;
+/*    width: 927px;*/
+    max-width: 83.5%;
+    height: 514px;
+/*    height: 410.5%;*/
+    background-color: aliceblue;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.9);
 }
 
-.card-axis {
-    display: flex;
-    box-shadow: 8px 8px 8px 8px rgb(0.1, 0.1, 0.1, 0.1);
-    padding: 20px;
-    margin: auto;
-    max-height: 550px;
-    max-width: 930px;
+.leftBloc {
+    width: 145px;
+    height: 514px;
+    background-color: #13a0b2;
     
-    align-items: center;
-    vertical-align: middle;
-    box-align: center;
-    text-align: left;
-    background-color: #fdfdfd;
-    color: #222;
+}
+.numbers {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-weight: 900;
 }
 
-.card-bg {
-    width: 86%;
-    background: linear-gradient(to right, #13a0b2 18%, #fff 18% 100%)
+.grayMinText_bloks {
+    font-size: 15px;
+    color: #898989;
+    font-family: "Lato";
+    font-weight: 400;
 }
-.Text {
-    margin-top: auto;
+.bloc__item{
+    margin-left: 60px;
+    margin-top: 80px;
 }
+
+
