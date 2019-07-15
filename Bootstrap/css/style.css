@@ -92,7 +92,7 @@ button:focus{outline:0}
 
 
 .grayMinText {
-    width: 741px;
+		max-width: 741px;
     font-size: 18px;
     color: #898989;
     font-family: "Lato";
@@ -198,16 +198,33 @@ width: 286px
 }
 
 .feature_bloc_item {
-	width: 371px;
-	height: 280px;
+	max-width: 371px;
+	max-height: 280px;
 	border: 1px solid #dedfe1;
+	margin: 10px;
 }
 .lorem_center_text_15 {
-	width: 309px;
-	height: 146px;
 	font-size: 15px;
 	color: #898989;
 	font-family: "Lato";
 	font-weight: 400;
 	text-align: center;
+}
+.features_image_item {
+	display: block;
+	margin: auto;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.products {
+	margin-top: 110px;
+	padding-bottom: 125px;
+	background-color: #9e9e9e;
+}
+.product__item {
+	padding-top: 60px;
+	height: 357px;
+	max-width: 370px;
+	margin: 10px;
+	
 }
