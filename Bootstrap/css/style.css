@@ -287,3 +287,10 @@ width: 286px
 	display: flex;
 	justify-content: center;
 }
+.blog__item {
+	max-width: 370px;
+	max-height: 233px;
+}
+.blogs {
+	padding-top: 60px;
+}
