@@ -40,6 +40,12 @@ h4 {
 	font-weight: 600;
 	text-align: center;
 }
+h5 {
+	font-size: 24px;
+	color: #ffffff;
+	font-family: "Source Sans Pro";
+	font-weight: 600;
+}
 
 header {
     background-color: #a8a8a8;
@@ -109,6 +115,15 @@ button:focus{outline:0}
     border: none;
     margin-left: 50%;
     transform: translate(-50%);
+}
+.Line_thin {
+	display: inline-block;
+	width: 35px;
+	height: 2px;
+	background-color: #13a0b2;
+	border: none;
+	margin-left: 50%;
+	transform: translate(-50%);
 }
 
 
@@ -227,4 +242,25 @@ width: 286px
 	max-width: 370px;
 	margin: 10px;
 	
+}
+.none-border {
+	border: none;
+}
+.border-clients {
+	max-width: 370px;
+	max-height: 308px;
+	border: 1px solid #dedfe1;
+	margin: 10px;
+}
+.clients {
+	padding-bottom: 130px;
+}
+.jsCounts {
+	background-color: #13a0b2;
+}
+.digitJs {
+	font-size: 45px;
+	color: #ffffff;
+	font-family: "Source Sans Pro";
+	font-weight: 600;
 }
