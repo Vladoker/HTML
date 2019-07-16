@@ -41,6 +41,7 @@ h4 {
 	text-align: center;
 }
 h5 {
+	padding-top: 20px;
 	font-size: 24px;
 	color: #ffffff;
 	font-family: "Source Sans Pro";
@@ -257,10 +258,32 @@ width: 286px
 }
 .jsCounts {
 	background-color: #13a0b2;
+	padding-bottom: 65px;
+	padding-top: 65px;
 }
 .digitJs {
 	font-size: 45px;
 	color: #ffffff;
 	font-family: "Source Sans Pro";
 	font-weight: 600;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.lineLight {
+	position: relative;
+	margin: 0;
+	background-color: #fff;
+	height: 2px;
+	width: 45px;
+	top: -5px;
+}
+.year {
+	font-size: 24px;
+	color: #ffffff;
+	font-family: sans-serif;
+	font-weight: 700;
+}
+.client__item {
+	display: flex;
+	justify-content: center;
 }
