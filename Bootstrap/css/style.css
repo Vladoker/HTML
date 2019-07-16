@@ -66,8 +66,8 @@ margin-top: 20px;
 
 .descriptionsEntry {
     font-size: 22px;
-    font-weight: 400;
-    width: 560px;
+    font-weight: 600;
+    max-width: 622px;
     padding-top: 45px;
     padding-bottom: 60px;
 }
@@ -289,8 +289,47 @@ width: 286px
 }
 .blog__item {
 	max-width: 370px;
-	max-height: 233px;
+	max-height: 430px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
 }
-.blogs {
-	padding-top: 60px;
+
+.mounth{
+	width: 55px;
+	height: 60px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: aliceblue;
+	font-weight: 700;
+	position: absolute;
+	/* bottom: 428px; */
+	left: 40px;
+}
+.mtop {
+	height: 35px;
+	background-color: #13a0b2;
+	font-size: 25px;
+}
+
+.mdown {
+	color: #13a0b2;
+	background-color: aliceblue;
+}
+.styleBlogs {
+	margin-top: 20px;
+	font-size: 21px;
+	color: #323232;
+	font-family: "Source Sans Pro";
+	font-weight: 600;
+}
+.redMore {
+	font-size: 15px;
+	color: #898989;
+	font-family: "Lato";
+	font-weight: 400;
+}
+.redMore:hover {
+	text-decoration: none;
+	color: #13a0b2;
 }
