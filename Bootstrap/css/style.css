@@ -6,7 +6,7 @@ a:hover {
     text-decoration: none;
 }
 
-ul li {
+/* ul li {
     display: block;
     padding: 0;
     margin: 0;
@@ -16,7 +16,7 @@ ul li {
 }
 .nav-link:hover {
     color: #13a0b2;
-}
+} */
 h3 {
     font-size: 24px;
     color: #323232;
@@ -63,13 +63,14 @@ nav {
 	height: 100%;
 	align-items: center;
 	margin-left: auto;
+	list-style-type: none;
 }
 .nav-links li a{
 	color: #fff;
 	text-decoration: none;
 	font-size: 16px;
 }
-.menu,.logo {
+/* .menu,.logo {
 	margin-top: 20px;
 }
 
@@ -78,7 +79,7 @@ nav {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: aliceblue;
-}
+} */
 
 .descriptionsEntry {
     font-size: 22px;
@@ -455,7 +456,7 @@ textarea:focus, input:focus{
 		clip-path: circle(100px at 90% -10%);
 		-webkit-clip-path: circle(900px at 90% -10%);
 		transition: all 1s ease-out;
-		
+
 	}
 	.nav-links.open {
 		clip-path: circle(100px at 90% -10%);
@@ -463,11 +464,24 @@ textarea:focus, input:focus{
 		pointer-events: all;
 	}
 
-	.nav-links li a{
+	.nav-links li a {
 		font-size: 25px;
 	}
 	.nav-links li {
 		margin-top: 50px;
 	}
-	
+
+	.forms {
+		text-align: center;
+		align-items: center;
+	}
+	.text-left {
+	 margin-left: 60%;
+		transform: translate(-60%);
+	}
+}
+@media screen and (max-width: 375px) {
+	.bgmedia {
+		width: 360px;
+	}
 }
