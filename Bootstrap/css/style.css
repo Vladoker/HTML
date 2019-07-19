@@ -48,13 +48,29 @@ h5 {
 	font-weight: 600;
 }
 
-header {
+/* header {
     background-color: #a8a8a8;
     height: 72px;
+} */
+nav {
+		background-color: #a8a8a8;
+    height: 72px;
 }
-
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	height: 100%;
+	align-items: center;
+	margin-left: auto;
+}
+.nav-links li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
 .menu,.logo {
-margin-top: 20px;
+	margin-top: 20px;
 }
 
 .menu__item a {
@@ -400,4 +416,58 @@ textarea:focus, input:focus{
 		font-family: "Lato";
 		font-weight: 700;
     color: #13a0b2;
+}
+ .logo2 {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 22%;
+	transform: translate(-22%);
+	z-index: 1;
+ }
+@media screen and (max-width: 768px){
+	
+	.line {
+		width: 30px;
+		height: 3px;
+		background: white;
+		margin: 5px;
+	}
+	nav {
+		position: relative;
+	}
+	.hamburger {
+		position: absolute;
+		cursor: pointer;
+		right: 5%;
+		top: 50%;
+		transform: translate(-5%,-50%);
+		z-index: 99;
+	}
+
+	.nav-links {
+		position: fixed;
+		justify-content: start;
+		background-color: #13a0b2;
+		height: 125vh;
+		width: 100%;
+		z-index: 98;
+		flex-direction: column;
+		clip-path: circle(100px at 90% -10%);
+		-webkit-clip-path: circle(900px at 90% -10%);
+		transition: all 1s ease-out;
+		
+	}
+	.nav-links.open {
+		clip-path: circle(100px at 90% -10%);
+		-webkit-clip-path: circle(100px at 90% -10%);
+		pointer-events: all;
+	}
+
+	.nav-links li a{
+		font-size: 25px;
+	}
+	.nav-links li {
+		margin-top: 50px;
+	}
+	
 }
