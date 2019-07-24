@@ -30,14 +30,11 @@
 				<div class="col-lg-7 ml-auto">
 					<nav id="nav-wrap">
 						<?php wp_nav_menu(array (
-							'theme_location'  => '',				 
+							'theme_location'  => 'Header',				 
 							'container'       => null, 
-							'menu_class'      => 'nav', 
-							'menu_id'         => 'nav',
+							'menu_class'      => 'nav d-flex', 
+							'menu_id'         => 'nav-wrap d-flex',
 						));?>
-						<a class="mobile-btn" href="#nav-wrap"></a>
-						<a class="mobile-btn" href="#nav-wrap"></a>
-						
 					</nav>
 				
 
