@@ -5,15 +5,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<!-- <h1>
-						Our New Product <br>
-						Has Come Just for You
-					</h1> -->
 					<h1><?php the_field('hero_title'); ?></h1>
-					<!-- <p class="descriptionsEntry">
-						Lorem ipsum dolor sit amet, sem vestibulum, mauris mattis fer- <br> mentum vel mollis placerat odio single
-						product.
-					</p> -->
 					<p class="descriptionsEntry">
 					<?php bloginfo('description')?>
 					</p>
@@ -28,12 +20,11 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<h2>
-						Why Choose Us
+						<?php the_field('name_section_2'); ?>
 					</h2>
 					<hr class="Line">
 					<p class="grayMinText">
-						Lorem ipsum dolor sit amet urna eget ullamcorper cras posuere risus quisque quam orci odio orci tempus diam
-						fringilla vivamus enim
+						<?php the_field('lorem_section_2'); ?>
 					</p>
 				</div>
 			</div>

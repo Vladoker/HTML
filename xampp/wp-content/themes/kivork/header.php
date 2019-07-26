@@ -21,37 +21,34 @@
 	<header id="header">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-1">
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>"><p class="logo_item">Ganja</p></a>
-					</div>
-					
-				</div>
-				<div class="col-lg-7 ml-auto">
-					<nav id="nav-wrap">
-						<?php wp_nav_menu(array (
-							'theme_location'  => 'Header',				 
-							'container'       => null, 
-							'menu_class'      => 'nav d-flex', 
-							'menu_id'         => 'nav-wrap d-flex',
-						));?>
-					</nav>
-				
+				<div class="col">
 
-					<!-- <nav class="navbar navbar-expand-lg justify-content-center">
-						<ul class="menu d-flex">
-							<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Team</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Testimonail</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">News</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-							<li class="nav-item"><a class="nav-link" href="#"><img style="width: 17px; height: 17px;"
-										src="img/search.png" alt="search"></a></li>
-							<li class="nav-item"><a href="#"><img style="width: 17px; height: 17px;" src="img/bag.png" alt="bag"></a>
-							</li>
-						</ul>
-					</nav> -->
+						<nav class="navbar navbar-expand-lg navbar-light">
+						<a class="navbar-brand" href="<?php echo home_url(); ?>"><p class="logo_item">Ganja</p></a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNav">			
+						<?php
+						wp_nav_menu( [
+							'theme_location'  => 'menu-header', 
+							'container'       => false, 
+							'container_class' => 'navbar navbar-expand-lg', 
+							'menu_class'      => 'navbar-nav', 
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul id="%1$s" class="navbar-nav">%3$s</ul>',
+							'depth'           => 0,
+							'walker'          => ''
+						] );?>
+							
+							</div>
+						</nav>
+
 				</div>
 			</div>
 		</div>
