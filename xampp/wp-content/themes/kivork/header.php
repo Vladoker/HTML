@@ -21,10 +21,12 @@
 	<header id="header">
 		<div class="container">
 			<div class="row">
-				<div class="col">
-
-						<nav class="navbar navbar-expand-lg navbar-light">
-						<a class="navbar-brand" href="<?php echo home_url(); ?>"><p class="logo_item">Ganja</p></a>
+				<div class="col-sm-2">
+				<a class="navbar-brand" href="<?php echo home_url(); ?>"><p class="logo_item">Ganja</p></a>
+				</div>
+				<div class="col-sm-10 ml-auto menu-header-nav">
+				<nav class="navbar navbar-expand-lg navbar-light">
+						<!-- <a class="navbar-brand" href="<?php echo home_url(); ?>"><p class="logo_item">Ganja</p></a> -->
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 							</button>
@@ -48,7 +50,6 @@
 							
 							</div>
 						</nav>
-
 				</div>
 			</div>
 		</div>

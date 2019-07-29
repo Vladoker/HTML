@@ -32,11 +32,12 @@
 				<div class="col-lg-4">
 					<div class="feature d-flex">
 						<!--                        <i style="color:#13a0b2" class="far fa-gem fa-3x"></i>-->
-						<img class="feature__image bgmedia" src="img/almaz.png" alt="image">
+						<img class="feature__image bgmedia" src="<?php the_field('image_support'); ?>" alt="image">
 						<div>
 							<h3>Best Qulity</h3>
 							<p class="grayMinText_size_14">
-								Best Solutions
+								<!-- Best Solutions -->
+								<?php the_field("almaz_text"); ?>
 							</p>
 							<p class="grayMinText_size_15">
 								Quamat nulla lectus mattis maurnonumy nectry vestibulum crasmetus.
@@ -46,7 +47,7 @@
 				</div>
 				<div class="col-lg-4">
 					<div class="feature d-flex">
-						<img class="feature__image bgmedia" src="img/scooter.png" alt="image">
+						<img class="feature__image bgmedia" src="<?php the_field("image_moto"); ?>" alt="image">
 						<div>
 							<h3>Best Qulity</h3>
 							<p class="grayMinText_size_14">
