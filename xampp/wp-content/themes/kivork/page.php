@@ -7,10 +7,10 @@
 				<div class="col-lg-12">
 					<h1><?php the_field('hero_title'); ?></h1>
 					<p class="descriptionsEntry">
-					<?php bloginfo('description')?>
+					<?php the_field('lorem_descriptions')?>
 					</p>
-					<button class="buttonL">Conact Us</button>
-					<button class="buttonR">Read More</button>
+					<button class="buttonL" onclick="javascript:window.location.href = '<?php the_field('url_button_left'); ?>'" ><?php the_field('text_button_left')?></button>
+					<button class="buttonR" onclick="javascript:window.location.href = '<?php the_field('url_button_right'); ?>'"><?php the_field('text_button_right')?></button>
 				</div>
 			</div>
 		</div>
@@ -34,13 +34,12 @@
 						<!--                        <i style="color:#13a0b2" class="far fa-gem fa-3x"></i>-->
 						<img class="feature__image bgmedia" src="<?php the_field('image_support'); ?>" alt="image">
 						<div>
-							<h3>Best Qulity</h3>
+							<h3><?php the_field('almaz_title'); ?></h3>
 							<p class="grayMinText_size_14">
-								<!-- Best Solutions -->
 								<?php the_field("almaz_text"); ?>
 							</p>
 							<p class="grayMinText_size_15">
-								Quamat nulla lectus mattis maurnonumy nectry vestibulum crasmetus.
+								<?php the_field('almaz_descriptions'); ?>
 							</p>
 						</div>
 					</div>
@@ -49,26 +48,26 @@
 					<div class="feature d-flex">
 						<img class="feature__image bgmedia" src="<?php the_field("image_moto"); ?>" alt="image">
 						<div>
-							<h3>Best Qulity</h3>
+							<h3><?php the_field("moto_title"); ?></h3>
 							<p class="grayMinText_size_14">
-								Best Solutions
+							<?php the_field("moto_text_"); ?>
 							</p>
 							<p class="grayMinText_size_15">
-								Quamat nulla lectus mattis maurnonumy nectry vestibulum crasmetus.
+							<?php the_field("moto_descriptions"); ?>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 bgmedia">
 					<div class="feature d-flex">
-						<img class="feature__image" src="img/support.png" alt="image">
+						<img class="feature__image" src="<?php the_field('image_chat'); ?>" alt="image">
 						<div>
-							<h3>Best Qulity</h3>
+							<h3><?php the_field('chat_title'); ?></h3>
 							<p class="grayMinText_size_14">
-								Best Solutions
+							<?php the_field('chat_text__'); ?>
 							</p>
 							<p class="grayMinText_size_15">
-								Quamat nulla lectus mattis maurnonumy nectry vestibulum crasmetus.
+							<?php the_field('chat_descriptions'); ?>
 							</p>
 						</div>
 					</div>
@@ -91,18 +90,18 @@
 						</div>
 						<div class="rightBloc">
 							<div class="bloc__item">
-								<h3>Axis Animation</h3>
-								<p class="grayMinText_bloks">Lorem ipsum dolor sit ametmaece risus lectus odioauctor quaerat fermen.
+								<h3><?php the_field("name_title_1"); ?></h3>
+								<p class="grayMinText_bloks"><?php the_field("description_1"); ?>
 								</p>
 							</div>
 							<div class="bloc__item">
-								<h3>Large Quality Lenses</h3>
-								<p class="grayMinText_bloks">Lorem ipsum dolor sit ametmaece risus lectus odioauctor quaerat fermen.
+								<h3><?php the_field("name_title_2"); ?></h3>
+								<p class="grayMinText_bloks"><?php the_field("description_2"); ?>
 								</p>
 							</div>
 							<div class="bloc__item">
-								<h3>IDP Adjustment</h3>
-								<p class="grayMinText_bloks">Lorem ipsum dolor sit ametmaece risus lectus odioauctor quaerat fermen.
+								<h3><?php the_field("name_title_3"); ?></h3>
+								<p class="grayMinText_bloks"><?php the_field("description_3"); ?>
 								</p>
 							</div>
 						</div>
@@ -116,12 +115,11 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-12">
 					<h2>
-						Product Features
+						<?php the_field("name_title"); ?>
 					</h2>
 					<hr class="Line">
 					<p class="grayMinText">
-						Lorem ipsum dolor sit amet urna eget ullamcorper cras posuere risus quisque quam orci odio orci tempus diam
-						fringilla vivamus enim
+						<?php the_field("descriptions"); ?>
 					</p>
 				</div>
 			</div>
@@ -129,21 +127,21 @@
 		<div class="container-fluid">
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-4 feature_bloc_item">
-					<img src="img/settings.png" alt="image" class="features_image_item">
+					<img src="<?php the_field("image_product_1"); ?>" alt="image" class="features_image_item">
 					<h4>IDP Adjustment</h4>
 					<p class="lorem_center_text_15">Vehicula vel integer, amet placerat lobortis amet feugiat placerat tortoramet
 						duis
 						bangladesh to do go.</p>
 				</div>
 				<div class="col-lg-4 feature_bloc_item">
-					<img src="img/feather.png" alt="image" class="features_image_item">
+					<img src="<?php the_field("image_product_2"); ?>" alt="image" class="features_image_item">
 					<h4>Soft Leather Frame</h4>
 					<p class="lorem_center_text_15">Vehicula vel integer, amet placerat lobortis amet feugiat placerat tortoramet
 						duis
 						bangladesh to do go.</p>
 				</div>
 				<div class="col-lg-4 feature_bloc_item">
-					<img src="img/headphones.png" alt="image" class="features_image_item">
+					<img src="<?php the_field("image_product_3"); ?>" alt="image" class="features_image_item">
 					<h4>Inbuilt Headphone</h4>
 					<p class="lorem_center_text_15">Vehicula vel integer, amet placerat lobortis amet feugiat placerat tortoramet
 						duis
@@ -152,21 +150,21 @@
 			</div>
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-4 feature_bloc_item">
-					<img src="img/head.png" alt="image" class="features_image_item">
+					<img src="<?php the_field("image_product_4"); ?>" alt="image" class="features_image_item">
 					<h4>Head Support Cushion</h4>
 					<p class="lorem_center_text_15">Vehicula vel integer, amet placerat lobortis amet feugiat placerat tortoramet
 						duis
 						bangladesh to do go.</p>
 				</div>
 				<div class="col-lg-4 feature_bloc_item">
-					<img src="img/exercise-bands.png" alt="image" class="features_image_item">
+					<img src="<?php the_field("image_product_5"); ?>" alt="image" class="features_image_item">
 					<h4>Adjustable Head Band</h4>
 					<p class="lorem_center_text_15">Vehicula vel integer, amet placerat lobortis amet feugiat placerat tortoramet
 						duis
 						bangladesh to do go.</p>
 				</div>
 				<div class="col-lg-4 feature_bloc_item">
-					<img src="img/qualy.png" alt="image" class="features_image_item">
+					<img src="<?php the_field("image_product_6"); ?>" class="features_image_item">
 					<h4>Large Quality Lenses</h4>
 					<p class="lorem_center_text_15">Vehicula vel integer, amet placerat lobortis amet feugiat placerat tortoramet
 						duis
@@ -376,7 +374,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contacts">
+	<section class="contacts" id="contact">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-4">

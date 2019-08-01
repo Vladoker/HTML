@@ -110,6 +110,7 @@ button:focus{outline:0}
 
 
 
+
 .grayMinText {
 		max-width: 741px;
     font-size: 18px;
@@ -435,6 +436,10 @@ textarea:focus, input:focus{
 .navbar-collapse {
 	text-align: right;
 }
+.menu-menu_h {
+	margin-right: auto;
+}
+
 @media screen and (max-width: 375px) {
 	.bgmedia {
 		width: 360px;
